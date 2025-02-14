@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "decidere-web",
   "private": true,
   "version": "0.0.0",
@@ -29,32 +28,4 @@
     "globals": "^15.14.0",
     "vite": "^6.1.0"
   }
-=======
-  "name": "decidere-app-web",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "build": "expo export:web",
-    "predeploy": "npm run build",
-    "deploy": "netlify deploy --prod"
-  },
-  "dependencies": {
-    "expo": "~52.0.32",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "react-native": "0.76.7",
-    "react-native-reanimated": "~3.16.1",
-    "react-native-web": "~0.19.13"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "netlify-cli": "^18.1.0"
-  },
-  "private": true
->>>>>>> 5cdf3e952d9e719ad2dc71e62ca62e632f0e9809
 }
