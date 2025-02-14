@@ -1,7 +1,12 @@
 [build]
   command = "npm run build"
+<<<<<<< HEAD
   publish = "dist"
 
+=======
+  publish = "web-build"
+  
+>>>>>>> 5cdf3e952d9e719ad2dc71e62ca62e632f0e9809
 [[redirects]]
   from = "/*"
   to = "/index.html"
